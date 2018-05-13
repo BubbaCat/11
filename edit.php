@@ -3,7 +3,7 @@
 require('config.php');
 require('database.php');
 $link = db_connect();
-
+include('functions/login-function.php');
 require('models/films.php');
 
 // UPDATE film data in DB
